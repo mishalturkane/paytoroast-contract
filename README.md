@@ -15,3 +15,7 @@ pub struct RoastState {
     pub status: RoastStatus,
 }
 ``` 
+---
+## 2 Instructions
+``` make.rs ``` that initialize instuction and deposit the funs to escorow
+---
