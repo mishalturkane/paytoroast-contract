@@ -3,9 +3,28 @@
 paytoroast is the first Web3 platform where you can send spicy roasts with crypto attached. Accept the roast, get the cash. Reject it, and the sender gets refunded.
 We built **DARE**, a novel **Decision-based Action Release Escrow** protocol on Solana,
  enabling permissionless roast-based payouts.
+---
+
+ ## How It Works💡
+[Roaster] ->
+Roaster initiates the interaction by submitting:
+
+A roast message
+
+A token/SOL amount
+
+Funds are securely locked in a PDA-based escrow vault.
 
 
+[Reciever] ->
+The receiver receives a link to accept or reject the interaction.
 
+Based on the receiver’s response:
+
+✅ Accept → The roast is posted (e.g., via Twitter API) and the locked amount is transferred to the receiver.
+
+❌ Reject → The locked amount is refunded to the original sender (roaster).
+---
 ## 1 Accounts
 ``` roast_state.rs ``` that stores the pda 
 ``` bash 
