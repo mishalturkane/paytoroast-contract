@@ -4,7 +4,7 @@ paytoroast is the first Web3 platform where you can send spicy roasts with crypt
 We built **DARE**, a novel **Decision-based Action Release Escrow** protocol on Solana,
  enabling permissionless roast-based payouts.
 
-
+---
  ## How It Works💡
 [Roaster] ->
 Roaster initiates the interaction by submitting:
@@ -25,6 +25,7 @@ Based on the receiver’s response:
 
 ❌ Reject → The locked amount is refunded to the original sender (roaster).
 
+---
 ## 1 Accounts
 ``` roast_state.rs ``` that stores the pda 
 ``` bash 
