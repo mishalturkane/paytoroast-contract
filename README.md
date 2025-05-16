@@ -31,3 +31,9 @@ pub struct RoastEscrow {
 - ```close_roast_escrow.rs```: Close the RoastEscrow account adn refunds rent.
 
 ---
+
+## Progress:
+- Smartcontract ✅
+- Testing ✅
+- Frontend 🏗️
+---
