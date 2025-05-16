@@ -24,7 +24,7 @@ Based on the receiver’s response:
 ✅ Accept → The roast is posted (e.g., via Twitter API) and the locked amount is transferred to the receiver.
 
 ❌ Reject → The locked amount is refunded to the original sender (roaster).
----
+
 ## 1 Accounts
 ``` roast_state.rs ``` that stores the pda 
 ``` bash 
