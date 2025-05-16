@@ -59,5 +59,5 @@ pub struct RoastEscrow {
 ## Progress:
 - Smartcontract ✅
 - Testing ✅
-- [Frontend 🏗️ 50% and 50% done✅](https://paytoroast.vercel.app/)
+- Frontend 🏗️ 50% and 50% done✅[https://paytoroast.vercel.app/](https://paytoroast.vercel.app/)
 ---
