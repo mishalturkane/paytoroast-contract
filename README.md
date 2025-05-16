@@ -29,5 +29,4 @@ pub struct RoastEscrow {
 
 - ```execute_transfer```: Distributes funds based on the receiver's decision and closes the escrow PDA's token account.
 
-```close_roast_escrow```: Closes the RoastEscrow account and refunds rent
 ---
