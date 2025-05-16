@@ -23,11 +23,11 @@ pub struct RoastEscrow {
 
 - ```initialize_roast.rs```: Initializes the ```RoastEscrow``` account and **escrow PDA** with provided details.
 
-- ```deposit_in_escrow```: Transfers tokens from the roaster's account to the escrow PDA.
+- ```deposit_in_escrow.rs```: Transfers tokens from the roaster's account to the escrow PDA.
 
-- ```receiver_responds```: Records the receiver's decision (accept/reject) for the roast.
+- ```receiver_responds.rs```: Records the receiver's decision (accept/reject) for the roast.
 
-- ```execute_transfer```: Distributes funds based on the receiver's decision and closes the escrow PDA's token account.
-- ```execute_transfer```: Distributes funds based on the receiver's decision and closes the escrow PDA's token account.
+- ```execute_transfer.rs```: Distributes funds based on the receiver's decision and closes the escrow PDA's token account.
+- ```close_roast_escrow.rs```: Close the RoastEscrow account adn refunds rent.
 
 ---
