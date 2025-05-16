@@ -21,7 +21,7 @@ The receiver receives a link to accept or reject the interaction.
 
 Based on the receiver’s response:
 
-✅ Accept → The roast is posted (e.g., via Twitter API) and the locked amount is transferred to the receiver.
+✅ Accept → The roast is posted (paytoroast and  twitter) and the locked amount is transferred to the receiver.
 
 ❌ Reject → The locked amount is refunded to the original sender (roaster).
 
