@@ -1,6 +1,10 @@
 # paytoroast 
-### Pay to Roast Get Paid to Be Roasted.
-The first Web3 platform where you can send spicy roasts with crypto attached. Accept the roast, get the cash. Reject it, and the sender gets refunded.
+```Pay to Roast Get Paid to Be Roasted.```
+paytoroast is the first Web3 platform where you can send spicy roasts with crypto attached. Accept the roast, get the cash. Reject it, and the sender gets refunded.
+We built **DARE**, a novel **Decision-based Action Release Escrow** protocol on Solana,
+ enabling permissionless roast-based payouts.
+
+
 
 ## 1 Accounts
 ``` roast_state.rs ``` that stores the pda 
