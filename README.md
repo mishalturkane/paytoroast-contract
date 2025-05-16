@@ -28,5 +28,6 @@ pub struct RoastEscrow {
 - ```receiver_responds```: Records the receiver's decision (accept/reject) for the roast.
 
 - ```execute_transfer```: Distributes funds based on the receiver's decision and closes the escrow PDA's token account.
+- ```execute_transfer```: Distributes funds based on the receiver's decision and closes the escrow PDA's token account.
 
 ---
