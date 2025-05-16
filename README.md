@@ -5,7 +5,8 @@ The first Web3 platform where you can send spicy roasts with crypto attached. Ac
 ## 1 Accounts
 ``` roast_state.rs ``` that stores the pda 
 ``` bash 
-pub struct RoastState {
+#[account]
+pub struct RoastEscrow {
     pub roaster: Pubkey,
     pub receiver: Pubkey,
     pub roast_message: Vec<u8>,
@@ -13,6 +14,8 @@ pub struct RoastState {
     pub mint: Pubkey,
     pub escrow_pda: Pubkey,
     pub status: RoastStatus,
+    pub seed_id: u64,
+    pub bump: u8,
 }
 ``` 
 ---
