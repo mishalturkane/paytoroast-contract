@@ -12,7 +12,7 @@ paytoroast = "6iEFedqxjyCaJPcBZzp1w7D3TT8wPRCdvveMZe8FcgCm"
 url = "https://api.apr.dev"
 
 [provider]
-cluster = "localnet"
+cluster = "Devnet"
 wallet = "~/.config/solana/id.json"
 
 [scripts]
